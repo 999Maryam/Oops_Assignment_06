@@ -1,4 +1,3 @@
-
 class Bank:
     bank_name = "State Bank"
 
