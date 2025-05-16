@@ -9,4 +9,4 @@ if __name__ == "__main__":
     Book.increment_book_count()
     Book.increment_book_count()
 
-    print("Total Book added: ",Book.total_books)
+    print("Total Books added: ",Book.total_books)
