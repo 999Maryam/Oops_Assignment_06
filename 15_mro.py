@@ -13,10 +13,8 @@ class C(A):
 class D(B, C):
     pass
 
+if __name__ == "__main__":
+    
 # Create an object of D and call show()
-d = D()
-d.show()
-
-# Print the MRO
-print("Method Resolution Order (MRO):")
-print(D.__mro__)
+    d = D()
+    d.show()
